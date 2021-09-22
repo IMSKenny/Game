@@ -1,0 +1,25 @@
+[user]
+	name = Kenny
+	email = imsleno@gmail.com
+[core]
+	autocrlf = input
+	quotepath = off
+	safecrlf = warn
+[alias]
+	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+	type = cat-file -t
+	dump = cat-file -p
+	br = branch
+	st = status
+	ci = commit
+	co = checkout
+	gs='git status '
+    ga='git add '
+    gb='git branch '
+    gc='git commit'
+    gd='git diff'
+    gco='git checkout '
+    gk='gitk --all&'
+    gx='gitx --all'
+    got='git '
+    get='git '
