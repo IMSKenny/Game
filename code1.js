@@ -9,9 +9,9 @@ let nextGrid = new Array(rows);
 let timer;
 let reproductionTime = 100;
 //правила
-let b = 4;
-let s1 = 0;
-let s2 = 8;
+let b = 3;
+let s1 = 2;
+let s2 = 3;
 
 function initializeGrids() {
     for (let i = 0; i < rows; i++) {
